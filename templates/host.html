@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/css/estilos.css')}}">
+</head>
+<body>
+    <p class="card">Me estas llamando desde el servidor {{request.remote_addr}}</p>
+</body>
+</html>
